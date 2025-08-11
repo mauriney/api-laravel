@@ -29,3 +29,7 @@ Accept: application/json
 ### Deletar Invoice
 DELETE http://localhost:8000/api/v1/invoices/25
 Accept: application/json
+
+### Mostrar Invoice
+GET http://localhost:8000/api/v1/invoices/18
+Accept: application/json
