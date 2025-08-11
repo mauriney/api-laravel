@@ -25,3 +25,7 @@ Accept: application/json
   "value": 150.75,
   "payment_date": "2025-06-10 21:00:00"
 }
+
+### Deletar Invoice
+DELETE http://localhost:8000/api/v1/invoices/25
+Accept: application/json
